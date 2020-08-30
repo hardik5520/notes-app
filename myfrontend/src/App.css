@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+.error{
+  font-size: small;
+  color: red;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  background-color: rgba(234, 234, 234, 0.5);
+  width: 300 px;
+  height: 15%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  padding: 1%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card2 {
+  background-color: black;
+  width: 400px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  padding: 1%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  /* flex-wrap: wrap; */
+}
+.cardwrapper{
+  display: flex !important;
+
+}
+.card3 {
+  background-image: linear-gradient( 178.8deg,  rgba(0,88,143,1) 13.8%, rgba(21,190,240,1) 95.4% );
+  width: 350px;
+  height: 20%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+  padding: 1%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card4 {
+  background-color: white;
+  width: 300 px;
+  height: 15%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 1%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-header {
+  background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#ip1 {
+  border-radius: 1000px;
+  background:white;
+  padding: 15px; 
+  width: 150px;
+  height: 1px;  
+  margin:5px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+  outline: none;
+      width:190px;
+      text-decoration: none;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      opacity: 1;
+      /*background-color: black; */
+      border: 1px solid rgba(22, 76, 167, 0.6);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+}
+.btn-grad:hover { background-position: right center; }
+
+#ip2 {
+
+      outline: none;
+      width:190px;
+      text-decoration: none;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      opacity: 1;
+      background-color: black;
+      border: 1px solid rgba(22, 76, 167, 0.6);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+}
+
+#ip3 {
+  outline: none;
+  width:190px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+  background-color: green;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+#ip3 {
+  outline: none;
+  width:140px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+  background-color: green;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+#ip4 {
+  outline: none;
+  width:140px;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+  background-color: red;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
