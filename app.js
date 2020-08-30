@@ -70,7 +70,7 @@ mongoose.connect(
 );
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(__dirname + "/myfrontend/build"));  //change folder name from frontend to whatever you have there
+  app.use(express.static( "myfrontend/build"));  //change folder name from frontend to whatever you have there
   app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "myfrontend", "build", "index.html")); //change folder name from frontend to whatever you have there
   });
